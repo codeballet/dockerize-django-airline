@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Dockerize Django Airline is an example of how Django and Postgres may be run under Docker. The Django app here is a simple app for keeping track of flights and passengers.
+Dockerize Django Airline is an example of how Django and Postgres may be run under Docker. The Django app here is a simple app for keeping track of users, flights and passengers.
 
 Using the approach in this project, neither Python, pip, Postgres, nor Django is necessary to install locally on the computer. Everything runs inside of Docker. All that is necessary is Docker. The `docker-compose.yml` file will use `volumes` to create a copy of the Django project and the Postgres data in your local directory, where your `docker-compose.yml` file is stored. Any changes you do in those directories will be reflected in the Django app that is running in a Docker container.
 
